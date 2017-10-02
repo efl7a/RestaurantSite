@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html ="en">
     <head>
+            <link 
+            href="restaurantStyles.css" 
+            rel="stylesheet" 
+            type="text/css" />
+    <style>
+    form {
+        width: 50%;
+        margin: 50px;
+        text-align: right;
+
+    }
+    input[type="text"]{
+        width: 200px;
+    }
+    select {
+        width: 202px;
+    }
+    textarea {
+        vertical-align: top;
+        width: 200px;
+        height: 75px;
+    }
+</style>
         <title>Contact Us</title>
     </head>
 
     <body>
-        <center>
-           <h3>The Dog and Pony</h3>
-        </center>
-        <hr/>
+            <div id="header1" >
+                    <h3>The Dog and Pony</h3>  
+                </div>
+    <div id="navigation">
         <a href="index.html">Home</a>
         <a href="menu.html">Menu</a>
         <a href="contact.html">Contact Us</a>
-        <hr/>
+    </div>
 <br/>
 <form action="#" method="POST">
         <div>
-            Name: <input type="text" name="Name"  />
+            Name: <input type="text" name="Name" />
          </div> 
          <br/>
          <div>
@@ -24,13 +47,13 @@
               </div>
               <br/>
               <div>
-                     Phone: <input type="text" name="Phone" />
+                     Phone: <input type="text" name="Phone"/>
                   </div>
                   <br/>
                   <div>
                         
                        Reason: 
-                       <select name="Reason for Inquiry">
+                       <select name="Reason for Inquiry" >
                            <option value="catering">Catering</option>
                            <option value="privateParty">Private Party</option>
                            <option value="Feedback">Feedback</option>
@@ -39,33 +62,35 @@
                     </div>
                     <br/>
              <div>
-                 Additional Information: 
-                         <textarea type="text" name="AdditionalInformation" rows="5" cols="50"></textarea>
-                            </br>
+                 Additional Information: <textarea type="text" name="AdditionalInformation" ></textarea>
+                            
             </div></br>  
-            <div>
+            <div style="text-align: left; margin-left: 30px;">
                     Have you visited our restaurant? 
                     <input type="radio" name="visited" value="No" checked/>No
                     <input type="radio" name="visited" value="Yes" />Yes
                  </div></br>   
-            Best days to contact you?
+           <div style="text-align: left; margin-left: 75px;">
+                 Best days to contact you?    
             <input type="checkbox" name="Monday" value="Monday"/>M
             <input type="checkbox" name="Tuesday" value="Tuesday"/>T
             <input type="checkbox" name="Wednesday" value="Wednesday"/>W
             <input type="checkbox" name="Thursday" value="Thursday"/>Th
             <input type="checkbox" name="Friday" value="Friday"/>F
             <br/>
-            <center><input type="submit" value="Send Request"/></center>       
+        </div>
+                </br>
+            <input type="submit" value="Send Request"/>       
                                
      </form>
     </body>
     <br/>
-    <hr>
+
     <br/>
-    <footer>
-        <center>
+    <footer id="footer1">
+
             74 Main St, Hometown, TN, 99999<br/>
             999-999-9999
-        </center>
+
     </footer>
 </html>
