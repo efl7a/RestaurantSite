@@ -29,3 +29,15 @@
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
+a{
+   color: blue; 
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    font-weight: bold;
+}
+a:active{
+    text-decoration: none;
+}
