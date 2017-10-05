@@ -3,7 +3,7 @@
     font-size: 45px; 
    font-style: italic;
    text-align: center;
-   padding-top: 3px;
+   padding-top: 5px;
    border-bottom: 1px solid black;
    color: blue;
    background-color: rgba(7, 221, 132, 0.71);
@@ -24,6 +24,7 @@
 }
 
 #navigation {
+   
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
